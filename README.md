@@ -1,0 +1,1 @@
+This project analyzes facial expressions in real-time to detect emotions within a crowd and determine the overall mood of individuals. By leveraging computer vision and emotion recognition models, it provides aggregated emotional insights that can be used for behavioral analytics, public safety, or event feedback systems.
