@@ -57,9 +57,6 @@ trump_encoding = face_recognition.face_encodings(trump_image)[0]
 modi_image = face_recognition.load_image_file("images/Modi.jpg")
 modi_encoding = face_recognition.face_encodings(modi_image)[0]
 
-srilekha_image = face_recognition.load_image_file("images/Srilekha.jpeg")
-srilekha_encoding = face_recognition.face_encodings(srilekha_image)[0]
-
 rishi_image = face_recognition.load_image_file("images/Rishi.jpeg")
 rishi_encoding = face_recognition.face_encodings(rishi_image)[0]
 
