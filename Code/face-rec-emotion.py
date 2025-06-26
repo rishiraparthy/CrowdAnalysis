@@ -19,7 +19,7 @@ import time
 USE_WEBCAM = True  
 
 # Path to the emotion detection model
-emotion_model_path = '/Users/srilekhanampelli/Desktop/DeepLearning/CrowdAnalysis/Analysis/models/emotion_model.hdf5'
+emotion_model_path = 'model/emotion_model.hdf5'
 
 # Load the emotion labels
 emotion_labels = get_labels('fer2013')
@@ -64,14 +64,12 @@ known_encodings = [
     obama_encoding,
     trump_encoding,
     modi_encoding,
-    srilekha_encoding,
     rishi_encoding
 ]
 known_names = [
     "Barack Obama",
     "Trump",
     "Modi",
-    "Srilekha",
     "Rishi"
 ]
 
